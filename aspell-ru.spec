@@ -1,5 +1,6 @@
 Summary:	Russian dictionary for aspell
 Summary(pl):	Rosyjski s�ownik dla aspella
+Summary(ru):	Русская проверка орфографии
 Name:		aspell-ru
 Version:	0.50
 %define	subv	2
