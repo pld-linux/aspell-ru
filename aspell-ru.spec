@@ -1,6 +1,6 @@
 Summary:	Russian dictionary for aspell
 Summary(pl):	Rosyjski sЁownik dla aspella
-Summary(ru):	п═я┐я│я│п╨п╟я▐ п©я─п╬п╡п╣я─п╨п╟ п╬я─я└п╬пЁя─п╟я└п╦п╦
+Summary(ru):	Русская проверка орфографии
 Name:		aspell-ru
 Version:	0.50
 %define	subv	2
