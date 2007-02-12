@@ -1,6 +1,6 @@
 Summary:	Russian dictionary for aspell
-Summary(pl):	Rosyjski s≥ownik dla aspella
-Summary(ru):	¿„··⁄–Ô ﬂ‡ﬁ“’‡⁄– ﬁ‡‰ﬁ”‡–‰ÿÿ
+Summary(pl.UTF-8):   Rosyjski s≈Çownik dla aspella
+Summary(ru.UTF-8):   —é–¶–ê–ê–∑–ø–û —ä–Æ—á—Ä—É–Æ–∑–ø —á–Æ–î—á—Å–Æ–ø–î—å—å
 Name:		aspell-ru
 Version:	0.99f7
 %define	subv	1
@@ -18,11 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Russian dictionary (i.e. word list) for aspell.
 
-%description -l pl
-Rosyjski s≥ownik (lista s≥Ûw) dla aspella.
+%description -l pl.UTF-8
+Rosyjski s≈Çownik (lista s≈Ç√≥w) dla aspella.
 
-%description -l ru
-¿„··⁄–Ô ﬂ‡ﬁ“’‡⁄– ﬁ‡‰ﬁ”‡–‰ÿÿ.
+%description -l ru.UTF-8
+—é–¶–ê–ê–∑–ø–û —ä–Æ—á—Ä—É–Æ–∑–ø —á–Æ–î—á—Å–Æ–ø–î—å—å.
 
 %prep
 %setup -q -n aspell6-ru-%{version}-%{subv}
