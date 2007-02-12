@@ -1,6 +1,6 @@
 Summary:	Russian dictionary for aspell
-Summary(pl.UTF-8):   Rosyjski słownik dla aspella
-Summary(ru.UTF-8):   юЦААзпО ъЮчруЮзп чЮДчсЮпДьь
+Summary(pl.UTF-8):	Rosyjski słownik dla aspella
+Summary(ru.UTF-8):	юЦААзпО ъЮчруЮзп чЮДчсЮпДьь
 Name:		aspell-ru
 Version:	0.99f7
 %define	subv	1
