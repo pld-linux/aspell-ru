@@ -8,7 +8,7 @@ Release:	1
 Epoch:		1
 License:	distributable
 Group:		Applications/Text
-Source0:	ftp://ftp.gnu.org/gnu/aspell/dict/ru/aspell6-ru-%{version}-%{subv}.tar.bz2
+Source0:	http://ftp.gnu.org/gnu/aspell/dict/ru/aspell6-ru-%{version}-%{subv}.tar.bz2
 # Source0-md5:	c4c98eaa5e77ad3adccbc5c96cb57cb3
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60
