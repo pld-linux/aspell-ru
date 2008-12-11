@@ -1,10 +1,10 @@
+%define	subv	1
 Summary:	Russian dictionary for aspell
 Summary(pl.UTF-8):	Rosyjski słownik dla aspella
-Summary(ru.UTF-8):	юЦААзпО ъЮчруЮзп чЮДчсЮпДьь
+Summary(ru.UTF-8):	Русская проверка орфографии
 Name:		aspell-ru
 Version:	0.99f7
-%define	subv	1
-Release:	1
+Release:	2
 Epoch:		1
 License:	distributable
 Group:		Applications/Text
@@ -15,6 +15,9 @@ BuildRequires:	aspell >= 3:0.60
 Requires:	aspell >= 3:0.60
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+# nothing to be put to debug package
+%define		_enable_debug_packages	0
+
 %description
 Russian dictionary (i.e. word list) for aspell.
 
@@ -22,7 +25,7 @@ Russian dictionary (i.e. word list) for aspell.
 Rosyjski słownik (lista słów) dla aspella.
 
 %description -l ru.UTF-8
-юЦААзпО ъЮчруЮзп чЮДчсЮпДьь.
+Русская проверка орфографии.
 
 %prep
 %setup -q -n aspell6-ru-%{version}-%{subv}
