@@ -13,6 +13,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/ru/aspell6-ru-%{version}-%{subv}.tar
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60
 Requires:	aspell >= 3:0.60
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 # nothing to be put to debug package
@@ -49,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README Copyright
 %lang(ru) %doc doc/readme.*
-%{_libdir}/aspell/*
+%{_prefix}/lib/aspell/*
 %{_datadir}/aspell/*
