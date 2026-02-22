@@ -4,7 +4,7 @@ Summary(pl.UTF-8):	Rosyjski słownik dla aspella
 Summary(ru.UTF-8):	Русская проверка орфографии
 Name:		aspell-ru
 Version:	0.99f7
-Release:	3
+Release:	4
 Epoch:		1
 License:	distributable
 Group:		Applications/Text
